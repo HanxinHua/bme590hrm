@@ -1,0 +1,17 @@
+from unittest.mock import patch, mock_open
+import json
+from output import *
+
+
+class TestMyFunctions(unittest.TestCase):
+    @patch("builtins.open", new_callable=mock_open, read_data=json.dumps({'name' : 'John','shares' : 100, 'price' : 1230.23}))
+    def test_write_info(self):
+        expected_output = {
+                  'name' : 'John',
+                  'shares' : 100,
+                  'price' : 1230.23
+        }
+        filename = 'example.json'
+        write_info(filename, expected_output)
+        mock_file.assert_called_with(filename)
+        self.assertEqual(expected_output, actual_output)
