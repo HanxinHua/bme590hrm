@@ -1,4 +1,4 @@
-def isNumber(n):
+def is_number(n):
     flag = True
     try:
         num = float(n)
