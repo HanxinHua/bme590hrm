@@ -4,9 +4,6 @@ python:
 cache:
         - pip
 install:
-        - virtualenv venv
-        - source venv/Scripts/activate
-        - pip install --upgrade setuptools
         - pip install --user -r requirements.txt        
 script:
         -pytest -v --pep8
