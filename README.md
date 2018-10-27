@@ -6,3 +6,4 @@ Heart Rate Monitor
 <p>This project translate ecg data to useful information.</p>
 <p>We use example data in "test_data" and output in "results".</p>
 <p>To run this project, we only need to run the file "hrm.py": python hrm.py</p>
+<p>The documentation is in build/</p>
