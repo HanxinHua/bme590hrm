@@ -1,4 +1,4 @@
-from output import write_info
+from write_info import write_info
 import json
 import pytest
 
