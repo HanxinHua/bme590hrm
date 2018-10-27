@@ -3,12 +3,20 @@ from Is_Number import *
 
 
 def read_csv(path):
+    """
+        :param path: The path of the input file
+        :returns: The data (including time and ecg) in the file
+    """
     with open(path, newline='') as f:
         data = list(csv.reader(f))
     return data
 
 
 def validation(data):
+    """
+        :param data: The data (including time and ecg)
+        :returns: The data removed with wrong style of data
+     """
     for item in data[:]:
         if not is_number(item[0]) or (not is_number(item[1])):
             data.remove(item)
@@ -21,6 +29,10 @@ def validation(data):
 
 
 def get_data(data):
+    """
+        :param data: The validated data
+        :returns: Separate data lists including time and ecg
+    """
     time = []
     ecg = []
     for item in data:

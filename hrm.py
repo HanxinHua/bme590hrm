@@ -5,6 +5,9 @@ import os
 
 
 def hrm():
+    """
+        :Synopsis: Transform data in all input files to output files with information we want
+    """
     dir_path = 'test_data'
     out_path = 'results'
     if not os.path.isdir(out_path):

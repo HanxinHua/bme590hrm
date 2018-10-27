@@ -2,6 +2,11 @@ from peakfinder import peak_finder
 
 
 def get_dictionary(time, ecg):
+    """
+        :param time: The time data
+        :param ecg: The ecg data corresponding to time
+        :returns: A dictionary including the key information we want
+    """
     metrics = {}
     peaks_index = peak_finder(ecg)
     dur = time[len(time)-1]-time[0]
