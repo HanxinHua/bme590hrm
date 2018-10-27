@@ -1,10 +1,10 @@
-from peakfinder import *
+from peakfinder import peak_finder
 import numpy as np
 
 
 def get_dictionary(time, ecg):
     metrics = {}
-    peaks_index = peakfinder(ecg)
+    peaks_index = peak_finder(ecg)
     dur = time[len(time)-1]-time[0]
     metrics["mean_hr_bpm"] = len(peaks_index)/dur*60
     metrics["voltage_extremes"] = (max(ecg), min(ecg))
