@@ -1,5 +1,4 @@
 from peakfinder import peak_finder
-import numpy as np
 
 
 def get_dictionary(time, ecg):
@@ -13,6 +12,5 @@ def get_dictionary(time, ecg):
     bt = []
     for i in peaks_index:
         bt.append(time[i])
-    beats_time = np.array(bt)
-    metrics["beats"] = beats_time
+    metrics["beats"] = bt
     return metrics

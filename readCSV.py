@@ -9,9 +9,8 @@ def read_csv(path):
 
 
 def validation(data):
-    for item in data:
+    for item in data[:]:
         if not is_number(item[0]) or (not is_number(item[1])):
-            print(item)
             data.remove(item)
         else:
             item[0] = float(item[0])
