@@ -4,6 +4,7 @@ from Is_Number import *
 
 def read_csv(path):
     """
+        :Synopsis: Read input from files
         :param path: The path of the input file
         :returns: The data (including time and ecg) in the file
     """
@@ -14,6 +15,7 @@ def read_csv(path):
 
 def validation(data):
     """
+        :Synopsis: Remove wrong data from the original version
         :param data: The data (including time and ecg)
         :returns: The data removed with wrong style of data
      """
@@ -30,6 +32,7 @@ def validation(data):
 
 def get_data(data):
     """
+        :Synopsis: Split up data into time and ecg
         :param data: The validated data
         :returns: Separate data lists including time and ecg
     """

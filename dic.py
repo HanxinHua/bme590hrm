@@ -3,6 +3,8 @@ from peakfinder import peak_finder
 
 def get_dictionary(time, ecg):
     """
+        :Synopsis: Calculate the information we want and store them
+                in a dictionary
         :param time: The time data
         :param ecg: The ecg data corresponding to time
         :returns: A dictionary including the key information we want

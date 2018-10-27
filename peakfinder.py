@@ -4,6 +4,7 @@ import peakutils
 
 def peak_finder(data):
     """
+        :Synopsis: Find peaks of the ecg signals
         :param data: The ecg data
         :returns: The indexes of peaks in the ecg data
     """

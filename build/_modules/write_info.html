@@ -38,9 +38,9 @@
 
 <div class="viewcode-block" id="write_info"><a class="viewcode-back" href="../index.html#write_info.write_info">[docs]</a><span class="k">def</span> <span class="nf">write_info</span><span class="p">(</span><span class="n">file_name</span><span class="p">,</span> <span class="n">file_info</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :Synopsis: Generate a file with information</span>
 <span class="sd">    :param file_name: The name of the output file</span>
 <span class="sd">    :param file_info: Information to store in the file</span>
-<span class="sd">    :Synopsis: Generate a file with information</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">.json&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">file_name</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fp</span><span class="p">:</span>
         <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">file_info</span><span class="p">,</span> <span class="n">fp</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span></div>

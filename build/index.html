@@ -54,7 +54,8 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Transform data in all input files to output files with information we want</td>
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Transform data in all input files to output files
+with information we want</td>
 </tr>
 </tbody>
 </table>
@@ -70,9 +71,12 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>n</strong> – Input data</td>
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Judge if an input is a number</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">True if the input is a number instinctively and False otherwise</td>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>n</strong> – Input data</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True if the input is a number instinctively
+and False otherwise</td>
 </tr>
 </tbody>
 </table>
@@ -85,9 +89,11 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> – The path of the input file</td>
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Read input from files</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The data (including time and ecg) in the file</td>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> – The path of the input file</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The data (including time and ecg) in the file</td>
 </tr>
 </tbody>
 </table>
@@ -100,9 +106,11 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> – The data (including time and ecg)</td>
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Remove wrong data from the original version</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The data removed with wrong style of data</td>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> – The data (including time and ecg)</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The data removed with wrong style of data</td>
 </tr>
 </tbody>
 </table>
@@ -115,9 +123,11 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> – The validated data</td>
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Split up data into time and ecg</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Separate data lists including time and ecg</td>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> – The validated data</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">Separate data lists including time and ecg</td>
 </tr>
 </tbody>
 </table>
@@ -133,9 +143,11 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> – The ecg data</td>
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Find peaks of the ecg signals</td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">The indexes of peaks in the ecg data</td>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>data</strong> – The ecg data</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The indexes of peaks in the ecg data</td>
 </tr>
 </tbody>
 </table>
@@ -151,13 +163,17 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body"><p class="first">Calculate the information we want and store them
+in a dictionary</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
 <li><strong>time</strong> – The time data</li>
 <li><strong>ecg</strong> – The ecg data corresponding to time</li>
 </ul>
 </td>
 </tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">A dictionary including the key information we want</p>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">A dictionary including the key information we want</p>
 </td>
 </tr>
 </tbody>
@@ -174,13 +190,13 @@
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body"><p class="first">Generate a file with information</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
 <li><strong>file_name</strong> – The name of the output file</li>
 <li><strong>file_info</strong> – Information to store in the file</li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Synopsis:</th><td class="field-body"><p class="first last">Generate a file with information</p>
 </td>
 </tr>
 </tbody>
