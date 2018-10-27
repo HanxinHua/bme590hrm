@@ -6,7 +6,8 @@ import os
 
 def hrm():
     """
-        :Synopsis: Transform data in all input files to output files with information we want
+        :Synopsis: Transform data in all input files to output files
+                   with information we want
     """
     dir_path = 'test_data'
     out_path = 'results'
