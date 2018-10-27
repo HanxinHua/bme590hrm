@@ -6,7 +6,9 @@ import os
 
 def hrm():
     dir_path = 'test_data'
-    out_path = 'results/'
+    out_path = 'results'
+    if not os.path.isdir(out_path):
+        os.mkdir(out_path)
     for f in os.listdir(dir_path):
         if f.endswith('.csv'):
             path = dir_path+"/"+f
@@ -14,7 +16,7 @@ def hrm():
             v_data = validation(data)
             time, ecg = get_data(v_data)
             metrics = get_dictionary(time, ecg)
-            write_info(out_path+f[:-4], metrics)
+            write_info(out_path+"/"+f[:-4], metrics)
 
 
 if __name__ == "__main__":
