@@ -2,7 +2,7 @@ from peakfinder import *
 import numpy as np
 
 
-def getdictionary(time, ecg):
+def get_dictionary(time, ecg):
     metrics = {}
     peaks_index = peakfinder(ecg)
     dur = time[len(time)-1]-time[0]
