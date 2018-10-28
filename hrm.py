@@ -30,7 +30,8 @@ def hrm():
                 time, ecg = get_data(v_data)
                 logging.info("Get metrics")
                 metrics = get_dictionary(time, ecg)
-                logging.info("Write metrics to output file : "+out_path+"/"+f[:-4])
+                logging.info("Write metrics to output file : " +
+                             out_path+"/"+f[:-4])
                 write_info(out_path+"/"+f[:-4], metrics)
     except FileNotFoundError:
         logging.error("The system cannot find the path specified: 'test_data'")

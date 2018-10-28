@@ -17,7 +17,8 @@ def read_csv(path):
         try:
             assert (len(item) == 2)
         except AssertionError:
-            logging.error(path+" : Data should be stored as two columns: time, ecg")
+            logging.error(path+" : Data should be stored as two columns:"
+                               " time, ecg")
             logging.error("Process exit\n\n")
             sys.exit(1)
     return data
