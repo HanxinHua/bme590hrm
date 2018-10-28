@@ -1,5 +1,7 @@
 import csv
 from Is_Number import *
+import sys
+import logging
 
 
 def read_csv(path):
@@ -7,9 +9,17 @@ def read_csv(path):
         :Synopsis: Read input from files
         :param path: The path of the input file
         :returns: The data (including time and ecg) in the file
+        :raise: Data should be stored as two columns: time, ecg
     """
     with open(path, newline='') as f:
         data = list(csv.reader(f))
+    for item in data:
+        try:
+            assert (len(item) == 2)
+        except AssertionError:
+            logging.error(path+" : Data should be stored as two columns: time, ecg")
+            logging.error("Process exit\n\n")
+            sys.exit(1)
     return data
 
 
@@ -21,11 +31,13 @@ def validation(data):
      """
     for item in data[:]:
         if not is_number(item[0]) or (not is_number(item[1])):
+            logging.warning("Find non-number data")
             data.remove(item)
         else:
             item[0] = float(item[0])
             item[1] = float(item[1])
             if item[1] > 300:
+                logging.warning("Find ecg data larger than 300")
                 data.remove(item)
     return data
 

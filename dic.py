@@ -1,4 +1,6 @@
 from peakfinder import peak_finder
+import sys
+import logging
 
 
 def get_dictionary(time, ecg):
@@ -8,9 +10,16 @@ def get_dictionary(time, ecg):
         :param time: The time data
         :param ecg: The ecg data corresponding to time
         :returns: A dictionary including the key information we want
+        :raise: Time duration is zero!
     """
     metrics = {}
-    peaks_index = peak_finder(ecg)
+    try:
+        logging.info("Try to find peaks")
+        peaks_index = peak_finder(ecg)
+    except ZeroDivisionError:
+        logging.error("Time duration is zero!")
+        logging.error("Process exit\n\n")
+        sys.exit(1)
     dur = time[len(time)-1]-time[0]
     metrics["mean_hr_bpm"] = len(peaks_index)/dur*60
     metrics["voltage_extremes"] = (max(ecg), min(ecg))

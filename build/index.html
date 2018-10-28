@@ -57,6 +57,9 @@
 <tr class="field-odd field"><th class="field-name">Synopsis:</th><td class="field-body">Transform data in all input files to output files
 with information we want</td>
 </tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body">Input files are not in ‘test_data’
+Input files are not .csv files</td>
+</tr>
 </tbody>
 </table>
 </dd></dl>
@@ -94,6 +97,8 @@ and False otherwise</td>
 <tr class="field-even field"><th class="field-name">Parameters:</th><td class="field-body"><strong>path</strong> – The path of the input file</td>
 </tr>
 <tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">The data (including time and ecg) in the file</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body">Data should be stored as two columns: time, ecg</td>
 </tr>
 </tbody>
 </table>
@@ -173,7 +178,10 @@ in a dictionary</p>
 </ul>
 </td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">A dictionary including the key information we want</p>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A dictionary including the key information we want</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raise:</th><td class="field-body"><p class="first last">Time duration is zero!</p>
 </td>
 </tr>
 </tbody>

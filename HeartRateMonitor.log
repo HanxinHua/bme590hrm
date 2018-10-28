@@ -1,0 +1,602 @@
+INFO:root:New process
+INFO:root:Read input : test_data/test_data1.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data1
+INFO:root:Read input : test_data/test_data10.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data10
+INFO:root:Read input : test_data/test_data11.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data11
+INFO:root:Read input : test_data/test_data12.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data12
+INFO:root:Read input : test_data/test_data13.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data13
+INFO:root:Read input : test_data/test_data14.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data14
+INFO:root:Read input : test_data/test_data15.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data15
+INFO:root:Read input : test_data/test_data16.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data16
+INFO:root:Read input : test_data/test_data17.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data17
+INFO:root:Read input : test_data/test_data18.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data18
+INFO:root:Read input : test_data/test_data19.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data19
+INFO:root:Read input : test_data/test_data2.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data2
+INFO:root:Read input : test_data/test_data20.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data20
+INFO:root:Read input : test_data/test_data21.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data21
+INFO:root:Read input : test_data/test_data22.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data22
+INFO:root:Read input : test_data/test_data23.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data23
+INFO:root:Read input : test_data/test_data24.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data24
+INFO:root:Read input : test_data/test_data25.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data25
+INFO:root:Read input : test_data/test_data26.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data26
+INFO:root:Read input : test_data/test_data27.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data27
+INFO:root:Read input : test_data/test_data28.csv
+INFO:root:Validate data
+WARNING:root:Find non-number data
+WARNING:root:Find non-number data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data28
+INFO:root:Read input : test_data/test_data29.csv
+INFO:root:Validate data
+WARNING:root:Find non-number data
+WARNING:root:Find non-number data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data29
+INFO:root:Read input : test_data/test_data3.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data3
+INFO:root:Read input : test_data/test_data30.csv
+INFO:root:Validate data
+WARNING:root:Find non-number data
+WARNING:root:Find non-number data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data30
+INFO:root:Read input : test_data/test_data31.csv
+INFO:root:Validate data
+WARNING:root:Find non-number data
+WARNING:root:Find non-number data
+WARNING:root:Find non-number data
+WARNING:root:Find non-number data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data31
+INFO:root:Read input : test_data/test_data32.csv
+INFO:root:Validate data
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+WARNING:root:Find ecg data larger than 300
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data32
+INFO:root:Read input : test_data/test_data4.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data4
+INFO:root:Read input : test_data/test_data5.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data5
+INFO:root:Read input : test_data/test_data6.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data6
+INFO:root:Read input : test_data/test_data7.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data7
+INFO:root:Read input : test_data/test_data8.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data8
+INFO:root:Read input : test_data/test_data9.csv
+INFO:root:Validate data
+INFO:root:Get time and ecg
+INFO:root:Get metrics
+INFO:root:Try to find peaks
+INFO:root:Write metrics to output file : results/test_data9

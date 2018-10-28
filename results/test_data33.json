@@ -1,0 +1,10 @@
+{
+    "beats": [],
+    "duration": 1.0,
+    "mean_hr_bpm": 0.0,
+    "num_beats": 0,
+    "voltage_extremes": [
+        2.0,
+        0.0
+    ]
+}
